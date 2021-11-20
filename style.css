@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#shapes {
+    max-width: 1140px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 270px;
+    gap: 20px;
+}
+.shape {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
